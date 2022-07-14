@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@400;500;600&display=swap');
+/*
+:root {
+    --bg1: #151828;
+    --bg2: #1B1F34;
+    --body: #959DCC;
+    --brand: #FFAB76;
+    --white: #fff;
+}
+*/
+
+body {
+  font-family: 'inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #151828;
+  line-height: 1.8;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Dela Gothic One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+
+img {
+  width: 100%;
+}
+
+section {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+/*navbar*/
+.navbar {
+  background-image: linear-gradient(to bottom, #151828, rgba(82, 82, 87, 0.2));
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #FFAB76;
+}
+
+.navbar-brand {
+  font-family: 'Dela Gothic One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 32px;
+}
+
+/*hero*/
+
+#hero {
+  background-image: linear-gradient(hwb(228 68% 26%), rgba(27, 31, 52, 0.0)), url(../img/machine.png);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+#hero h2 {
+  font-size: 40px;
+}
+
+#hero p {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-size: 30px;
+}
+
+/*hero*/
+.btn {
+  padding: 16px 36px;
+  font-family: 'Dela Gothic One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.4s ease;
+  border-radius: 0;
+}
+
+.btn-brand {
+  background-color: #FFAB76;
+}
+
+.btn-brand:hover {
+  background-color: transparent;
+  color: #FFAB76;
+  border-color: #FFAB76;
+}
+
+.btn-outline-brand {
+  background-color: transparent;
+  color: #FFAB76;
+  border-color: #FFAB76;
+}
+
+.btn-outline-brand:hover {
+  background-color: #FFAB76;
+}
+
+/*team*/
+
+.team h1 {
+  align-items: center;
+  margin-left: 40%;
+  margin-top: 0px;
+  padding-bottom: 30px;
+  color: black;
+}
+
+.details .content+.content {
+  margin-top: 100px;
+}
+
+.adi {
+  padding-top: 40px;
+}
+
+
+
+.details .content h3 {
+  font-size: 'Dela Gothic One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: #FFAB76;
+}
+
+.details .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details .content ul li {
+  padding-bottom: 10px;
+}
+
+.details .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1acc8d;
+}
+
+.details .content p:last-child {
+  margin-bottom: 0;
+
+
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.details img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(1);
+}
+
+
+.details img {
+  width: 100%;
+  border-radius: 50%;
+  align-items: center;
+  height: 90%;
+}
+
+
+.gallery2 {
+  padding-top: 30px;
+  height: 400px;
+}
+
+/*service*/
+.services .icon-box {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  background: #fff;
+}
+
+.services .icon-box .icon {
+  margin-bottom: 10px;
+}
+
+.services .icon-box .icon i {
+  color: #47b2e4;
+  font-size: 36px;
+  transition: 0.3s;
+}
+
+.services .icon-box h6 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .icon-box h6 {
+  color: #FFAB76;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover {
+  transform: translateY(-10px);
+}
+
+.services .icon-box:hover h4 a {
+  color: #47b2e4;
+}
+
+
+/*service*/
+
+
+/*departments*/
+
+.depr h3 {
+  color: #FFAB76;
+
+}
+
+/*departments*/
+.row p {
+  padding-top: 15px;
+  margin-right: 10px;
+}
+
+.row h4 {
+  padding-top: 20px;
+}
+
+/*contact*/
+
+#contact {
+  background-image: linear-gradient(to right, rgb(58, 59, 62), rgba(27, 31, 52, 0.0)), url(../img/3Shape\ TRIOS\ scanner.jpg);
+  background-position: 100%;
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #3f43fd;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #f0f0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #1acc8d;
+  color: #fff;
+}
+
+.contact {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .info h3 {
+  padding: 0 0 0 60px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #1acc8d;
+  color: #fff;
+}
+
+
+/*fooret*/
+#footer {
+  background-image: linear-gradient(to right, rgb(58, 59, 62), rgba(27, 31, 52, 0.0)), url(../img/endo\ dontic\ analysis\ 1.jpg);
+
+
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 15px;
+  background: #00203FFF;
+  color: #fff;
+  border-top: 10px solid #ADEFD1FF;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+#footer .footer-top .footer-info h6 {
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 500;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+#footer .footer-top .social-links a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-top h6 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #61ebba;
+  font-size: 14px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+  text-decoration: none;
+}
+
+#footer .footer-top .footer-links ul :hover {
+  color: #FFAB76;
+}
