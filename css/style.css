@@ -32,8 +32,8 @@ img {
 }
 
 section {
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /*navbar*/
@@ -51,6 +51,9 @@ section {
 }
 
 /*hero*/
+#hero .herotop {
+  padding-top: 160px;
+}
 
 #hero {
   background-image: linear-gradient(hwb(228 68% 26%), rgba(27, 31, 52, 0.0)), url(../img/machine.png);
@@ -100,9 +103,8 @@ section {
 /*team*/
 
 .team h1 {
-  align-items: center;
-  margin-left: 40%;
-  margin-top: 0px;
+  text-align: center;
+ 
   padding-bottom: 30px;
   color: black;
 }
