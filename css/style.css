@@ -104,7 +104,7 @@ section {
 
 .team h1 {
   text-align: center;
- 
+
   padding-bottom: 30px;
   color: black;
 }
@@ -176,6 +176,7 @@ section {
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   background: #fff;
+  min-height: 210px;
 }
 
 .services .icon-box .icon {
