@@ -36,6 +36,12 @@ section {
   padding-bottom: 60px;
 }
 
+.logo {
+   height: 15%;
+   width: 15%;
+}
+
+
 /*navbar*/
 .navbar {
   background-image: linear-gradient(to bottom, #151828, rgba(82, 82, 87, 0.2));
@@ -48,6 +54,11 @@ section {
 .navbar-brand {
   font-family: 'Dela Gothic One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 32px;
+}
+
+.banner-img{
+  max-height: 100vh !important;
+  margin-top: 40px;
 }
 
 /*hero*/
@@ -241,7 +252,7 @@ section {
 /*contact*/
 
 #contact {
-  background-image: linear-gradient(to right, rgb(58, 59, 62), rgba(27, 31, 52, 0.0)), url(../img/3Shape\ TRIOS\ scanner.jpg);
+  background-image: linear-gradient(to right, rgb(58, 59, 62), rgba(27, 31, 52, 0.0)), url(../img/map.png);
   background-position: 100%;
 }
 
