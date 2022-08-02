@@ -404,3 +404,9 @@ section {
 #footer .footer-top .footer-links ul :hover {
   color: #FFAB76;
 }
+
+.h3-heading {
+  font-size: 1rem;
+  color: #ffab76;
+  text-align: center;
+}
